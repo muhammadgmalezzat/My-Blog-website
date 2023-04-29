@@ -12,17 +12,16 @@ function PostItem(props) {
 
   const imagePath = `/images/posts/${slug}/${image}`;
   const linkPath = `/posts/${slug}`;
-
   return (
     <li className={classes.post} >
-      <Link href={linkPath}>
+      <Link href={linkPath} legacyBehavior={true}>
         <a>
           <div className={classes.image}>
           <Image
             src={imagePath}
             alt={title}
-            width={300}
-            height={200}
+            width={400}
+            height={400}
             layout="responsive"
           />
         </div>

@@ -10,11 +10,15 @@ function MainNavigation() {
       <nav>
         <ul>
           <li>
+            <Link href="/" legacyBehavior={true}>Blog</Link>
+          </li>
+          <li>
             <Link href="/posts" legacyBehavior={true} >Posts</Link>
           </li>
           <li>
             <Link href="/contact" legacyBehavior={true}>Contact</Link>
           </li>
+          
         </ul>
       </nav>
     </header>
