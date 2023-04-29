@@ -11,7 +11,6 @@ export default (phase) => {
             },
         };
   }
-
   return {
         env: {
             mongodb_username: 'gemy',
