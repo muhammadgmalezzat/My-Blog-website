@@ -1,7 +1,7 @@
-import { PHASE_DEVELOPMENT_SERVER } from 'next/constants';
+const { PHASE_DEVELOPMENT_SERVER } = require('next/constants');
 
-export default (phase) => {
-  if (phase === PHASE_DEVELOPMENT_SERVER) {
+module.exports = (phase) => {
+    if (phase === PHASE_DEVELOPMENT_SERVER) {
     return {
             env: {
                 mongodb_username: 'gemy',
@@ -10,8 +10,9 @@ export default (phase) => {
                 mongodb_database: "my-site-development"
             },
         };
-  }
-  return {
+    }
+
+    return {
         env: {
             mongodb_username: 'gemy',
             mongodb_password: 'gemy200',
