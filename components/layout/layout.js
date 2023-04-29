@@ -4,9 +4,9 @@ import MainNavigation from './main-navigation';
 
 function Layout(props) {
   return (
-    <Fragment>
+    <Fragment style={{minWidth: "430px"}}>
       <MainNavigation />
-      <main>
+      <main style={{minWidth: "430px"}}>
       {props.children }
       </main>
     </Fragment>

@@ -24,7 +24,6 @@ function Homepage(props) {
 
 export function getStaticProps() {
     const featuredPosts = getFeaturedPosts();
-    console.log(featuredPosts)
     return {
         props: {
             posts: featuredPosts

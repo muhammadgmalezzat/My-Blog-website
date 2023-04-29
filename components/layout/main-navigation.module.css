@@ -1,5 +1,6 @@
 .header {
   width: 100%;
+  min-width: 430px;
   height: 6rem;
   background-color: var(--color-grey-900);
   display: flex;
