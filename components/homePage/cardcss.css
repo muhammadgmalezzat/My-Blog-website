@@ -107,7 +107,7 @@ transform: rotateY(180deg);}
   text-align: center;
 }
 
-.card .back ul li i {color: #333742; }
-.card .back ul li i:hover{color: #2896CA;}
+.card .back ul li span {color: #333742; }
+.card .back ul li span:hover{color: #2896CA;}
 
 
